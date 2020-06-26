@@ -2,8 +2,8 @@ const { Weather } = require('./weather');
 const { UI } = require('./UI')
 require('./index.css');
 
-// Se crean los objetos
-const weather = new Weather('Dolores Hidalgo', 'mx');
+// Create your own object by default
+const weather = new Weather('Moscow', 'Ru');
 const ui = new UI();
 
 async function fetchWeather() {
